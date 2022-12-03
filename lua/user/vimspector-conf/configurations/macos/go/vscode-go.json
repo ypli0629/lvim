@@ -1,0 +1,46 @@
+{
+  "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json",
+  "configurations": {
+    "Run Current Project": {
+      "adapter": "vscode-go",
+      "configuration": {
+        "request": "launch",
+        "program": "main.go",
+        "cwd": "${cwd}",
+        "mode": "debug"
+      }
+    },
+    "Run Current Dir": {
+      "adapter": "vscode-go",
+      "configuration": {
+        "request": "launch",
+        "program": "${fileDirname}",
+        "mode": "debug"
+      }
+    },
+    "Attach Current Project (Remote)": {
+      "adapter": "vscode-go",
+      "configuration": {
+        "request": "attach",
+        "program": "${fileDirname}",
+        "cwd": "${cwd}",
+        "mode": "remote",
+        "trace": "verbose",
+        "host": "${host}",
+        "port": "${port}"
+      }
+    },
+    "Attach Current Project (Local)": {
+      "adapter": "vscode-go",
+      "configuration": {
+        "request": "attach",
+        "program": "${fileDirname}",
+        "remotePath": "${fileDirname}",
+        "cwd": "${fileDirname}",
+        "mode": "local",
+        "processId": "${PID}",
+        "trace": "verbose"
+      }
+    }
+  }
+}
