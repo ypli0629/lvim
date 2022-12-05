@@ -1,3 +1,4 @@
+reload "user.global"
 reload "user.plugins"
 reload "user.options"
 reload "user.mappings"
