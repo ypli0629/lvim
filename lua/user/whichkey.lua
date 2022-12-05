@@ -12,3 +12,7 @@ lvim.builtin.which_key.mappings["d"] = {
   q = { "<cmd>VimspectorReset<cr>", "Quit" },
   b = { "<Plug>VimspectorToggleConditionalBreakpoint", "Toggle Conditional Breakpoint" },
 }
+-- ignore Vimspector default mappings
+lvim.builtin.which_key.mappings["<F5>"] = "which_key_ignore"
+lvim.builtin.which_key.mappings["<F8>"] = "which_key_ignore"
+lvim.builtin.which_key.mappings["<F9>"] = "which_key_ignore"
