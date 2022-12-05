@@ -1,11 +1,15 @@
 lvim.colorscheme = "darkplus"
 lvim.log.level = "warn"
 lvim.lsp.diagnostics.float.focusable = true
+lvim.format_on_save = {
+  enabled = true,
+  timeout = 3000
+}
 lvim.builtin.dap.active = false
 lvim.builtin.nvimtree.setup.filters.dotfiles = true
-
-vim.g.vimspector_enable_mappings = "HUMAN"
-vim.g.vimspector_base_dir = os.getenv "LUNARVIM_CONFIG_DIR" .. "/lua/user/vimspector-conf"
-vim.g.vimspector_install_gadgets = { '--all', '--force-all' }
-
-vim.opt.relativenumber = true
+lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
+lvim.builtin.nvimtree.setup.renderer.icons.git_placement = "after"
+lvim.builtin.treesitter.autotag.enable = true
+lvim.builtin.which_key.setup.plugins.marks = true
+lvim.builtin.which_key.setup.plugins.registers = true
+lvim.builtin.which_key.setup.plugins.presets = true
