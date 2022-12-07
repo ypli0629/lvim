@@ -1,0 +1,6 @@
+{
+ "import ProTable": {
+  "prefix": "ipt",
+  "body": ["import { ProTable } from '@ant-design/pro-components'"]
+ }  
+}
