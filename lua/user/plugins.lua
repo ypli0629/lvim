@@ -42,11 +42,6 @@ lvim.plugins = {
   "hrsh7th/cmp-emoji",
   {
     "ggandor/leap.nvim",
-    config = function()
-      vim.defer_fn(function()
-        require('leap').add_default_mappings(true)
-      end, 100)
-    end
   },
   {
     "nacro90/numb.nvim",
@@ -121,4 +116,7 @@ lvim.plugins = {
   {
     "editorconfig/editorconfig-vim",
   },
+  {
+    "jayp0521/mason-null-ls.nvim"
+  }
 }
