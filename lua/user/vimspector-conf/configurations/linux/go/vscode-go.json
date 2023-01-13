@@ -41,6 +41,15 @@
         "processId": "${PID}",
         "trace": "verbose"
       }
+    },
+    "Test": {
+      "adapter": "vscode-go",
+      "configuration": {
+        "request": "launch",
+        "mode": "test",
+        "cwd": "${fileDirname}",
+        "program": "${file}"
+      }
     }
   }
 }

@@ -50,7 +50,6 @@ lvim.plugins = {
 		end,
 	},
 	"sindrets/diffview.nvim",
-	"olexsmir/gopher.nvim",
 	{
 		"saecki/crates.nvim",
 		tag = "v0.3.0",
@@ -94,8 +93,6 @@ lvim.plugins = {
 	-- 		})
 	-- 	end,
 	-- },
-	-- "leoluz/nvim-dap-go",
-	-- "mfussenegger/nvim-dap-python",
 	"puremourning/vimspector",
 	"matze/vim-move",
 	"lbrayner/vim-rzip",
@@ -123,5 +120,9 @@ lvim.plugins = {
 	},
 	{
 		"stevearc/dressing.nvim",
+	},
+	"ray-x/guihua.lua",
+	{
+		"ray-x/go.nvim",
 	},
 }

@@ -1,17 +1,18 @@
-reload "user.global"
-reload "user.plugins"
-reload "user.options"
-reload "user.mappings"
-reload "user.treesitter"
-reload "user.whichkey"
-reload "user.cybu"
-reload "user.spectre"
-reload "user.zen_mode"
-reload "user.git_blame"
-reload "user.inlayhints"
-reload "user.bqf"
-reload "user.jaq"
-reload "user.lualine"
-reload "user.leap"
-reload "user.mason_null_ls"
-reload "user.lsp"
+reload("user.global")
+reload("user.plugins")
+reload("user.options")
+reload("user.mappings")
+reload("user.treesitter")
+reload("user.whichkey")
+reload("user.cybu")
+reload("user.spectre")
+reload("user.zen_mode")
+reload("user.git_blame")
+reload("user.inlayhints")
+reload("user.bqf")
+reload("user.jaq")
+reload("user.lualine")
+reload("user.leap")
+reload("user.go")
+reload("user.mason_null_ls")
+reload("user.lsp")
