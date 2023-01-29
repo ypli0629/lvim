@@ -125,4 +125,8 @@ lvim.plugins = {
 	{
 		"ray-x/go.nvim",
 	},
+	-- {
+	-- 	"xiyaowong/nvim-transparent",
+	-- },
+	{ "catppuccin/nvim", name = "catppuccin" },
 }
