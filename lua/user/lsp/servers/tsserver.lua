@@ -5,13 +5,15 @@ require("lvim.lsp.manager").setup("tsserver", {
 		hostInfo = "neovim",
 		maxTsServerMemory = 8192,
 		tsserver = {
-			logVerbosity = "normal",
+			logVerbosity = "off",
 			trace = "off",
+			disableSuggestions = true,
 		},
 		preferences = {
 			autoImportFileExcludePatterns = {
 				"@umijs/**",
 				"src/.umi/**",
+				"@ant-design/icons",
 			},
 		},
 	},
