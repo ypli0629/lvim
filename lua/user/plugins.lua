@@ -3,7 +3,7 @@ lvim.plugins = {
 	"opalmay/vim-smoothie",
 	"nvim-treesitter/playground",
 	"nvim-treesitter/nvim-treesitter-textobjects",
-	"p00f/nvim-ts-rainbow",
+	-- "p00f/nvim-ts-rainbow",
 	"windwp/nvim-ts-autotag",
 	{
 		"kylechui/nvim-surround",
